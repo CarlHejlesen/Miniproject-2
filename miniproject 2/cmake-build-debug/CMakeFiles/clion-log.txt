@@ -1,4 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe" -G "Ninja Multi-Config" -S "C:\Users\Bare mig Altså Carl\CLionProjects\miniproject 2" -B "C:\Users\Bare mig Altså Carl\CLionProjects\miniproject 2\cmake-build-debug"
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/Bare mig Altså Carl/CLionProjects/miniproject 2/cmake-build-debug

@@ -1,5 +1,0 @@
-C:/Users/Bare mig Altså Carl/CLionProjects/miniproject 2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Bare mig Altså Carl/CLionProjects/miniproject 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Bare mig Altså Carl/CLionProjects/miniproject 2/cmake-build-debug/Sourse/CMakeFiles/mimi.dir
-C:/Users/Bare mig Altså Carl/CLionProjects/miniproject 2/cmake-build-debug/Sourse/CMakeFiles/edit_cache.dir
-C:/Users/Bare mig Altså Carl/CLionProjects/miniproject 2/cmake-build-debug/Sourse/CMakeFiles/rebuild_cache.dir
