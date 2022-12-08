@@ -1,0 +1,3 @@
+C:/Users/Bare mig Altså Carl/Documents/GitHub/Miniproject-2/miniproject 2/Sourse/cmake-build-debug/CMakeFiles/mimi.dir
+C:/Users/Bare mig Altså Carl/Documents/GitHub/Miniproject-2/miniproject 2/Sourse/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Bare mig Altså Carl/Documents/GitHub/Miniproject-2/miniproject 2/Sourse/cmake-build-debug/CMakeFiles/rebuild_cache.dir
