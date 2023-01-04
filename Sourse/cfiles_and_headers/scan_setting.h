@@ -11,7 +11,7 @@ void scan_setting(int *computer_on, int *size, int *lines);
 void arena_reset(int **arena, int size_of_arena);
 
 #include "scan_move.c"
-void scan_move(int **arena, int size_of_arena, int lines, int turn);
+void scan_move(int **arena, int size_of_arena, int lines, int turn, int computer_on_off);
 
 #include "print_arena.c"
 void print_arena(int **arena, int size_of_arena);

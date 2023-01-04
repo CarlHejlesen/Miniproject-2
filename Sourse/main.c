@@ -58,14 +58,14 @@ void game_of_lines(int size_of_arena, int computer_on_off, int lines) {
     while (true) {
 
         turn = 1;
-        scan_move(arena, size_of_arena, lines, turn);
+        scan_move(arena, size_of_arena, lines, turn, computer_on_off);
         print_arena(arena, size_of_arena);
         winner(arena, size_of_arena, lines, turn, &winner1);
 
         if (winner1 > 0) { break; }
         turn = 2;
-        if (row_move_ai = 1) { ai_move(row_move_ai); }
-        scan_move(arena, size_of_arena, lines, turn);
+        //if (row_move_ai = 1) { ai_move(row_move_ai); }
+        scan_move(arena, size_of_arena, lines, turn, computer_on_off);
         print_arena(arena, size_of_arena);
         winner(arena, size_of_arena, lines, turn, &winner1);
         if (winner1 > 0) { break; }

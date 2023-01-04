@@ -4,10 +4,10 @@
 #include "scan_setting.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 
-
-void scan_move(int **arena, int size_of_arena, int lines, int turn) {
+void scan_move(int **arena, int size_of_arena, int lines, int turn, int computer_on_off) {
     assert(size_of_arena > 0);
     assert(lines > 0);
     assert(turn>=0);
@@ -21,10 +21,20 @@ void scan_move(int **arena, int size_of_arena, int lines, int turn) {
 
     while (true) {
         while (true) {
-            printf("what move do you want to do p%d?\n", turn);
-            scanf("%d", &row);
+if(computer_on_off==1&& turn==2){
+    int min=0;
+    int max=size_of_arena;
+    srand(time(0));
+
+    row= min + rand() % (max - min + 1);
+}
+if(computer_on_off==0||turn==1){
+    printf("what move do you want to do p%d?\n", turn);
+    scanf("%d", &row);
+}
+
             if (row >= 0 && row <= size_of_arena) { break; }
-            printf("not valid input try again.  Chose a number between 0 and %d\n", size_of_arena - 1);
+            if(computer_on_off==0&& turn==1){("not valid input try again.  Chose a number between 0 and %d\n", size_of_arena - 1);}
         }
         for (int i = 0; i < size_of_arena; i++) {
             if (arena[i][row] == 0) {
